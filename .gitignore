@@ -1,0 +1,55 @@
+# Byte-compiled / cache files
+__pycache__/
+*.py[cod]
+*$py.class
+
+# Virtual environments
+venv/
+.env/
+.env.local
+.venv/
+ENV/
+
+# Environment variables file (DO NOT COMMIT SECRETS)
+.env
+
+# Logs
+*.log
+logs/
+
+# Dependency directories
+site-packages/
+
+# Testing / coverage
+.pytest_cache/
+.coverage
+htmlcov/
+.tox/
+
+# IDE / editors
+.vscode/
+.idea/
+*.swp
+*.swo
+
+# OS files
+.DS_Store
+Thumbs.db
+
+# Docker
+docker-compose.override.yml
+
+# Python packaging
+dist/
+build/
+*.egg-info/
+
+# Jupyter
+.ipynb_checkpoints/
+
+# Migrations (optional depending on project)
+# migrations/
+
+# Misc
+*.sqlite3
+*.db
