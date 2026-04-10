@@ -21,11 +21,14 @@ A production-ready backend service for storing purchase transactions and retriev
 
 ## Architecture
 
-The project follows clean architecture principles:
+The project follows clean architecture principles
 
 ## How to run
 
 python -m venv venv
+
 venv\Scripts\activate
+
 pip install -r requirements.txt
+
 uvicorn app.main:app --reload
